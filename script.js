@@ -72,7 +72,7 @@ function kirimWA(e){
     const wa = document.getElementById("wa").value;
     const pesan = document.getElementById("pesan").value;
 
-    const nomorAdmin = "628981334448"; // GANTI NOMOR ANDA
+    const nomorAdmin = "6285188642611"; // GANTI NOMOR ANDA
 
     const text = 
     "Halo, saya ingin konsultasi.%0A%0A" +
@@ -83,3 +83,4 @@ function kirimWA(e){
 
     window.open("https://wa.me/" + nomorAdmin + "?text=" + text, "_blank");
 }
+
